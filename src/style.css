@@ -3,6 +3,7 @@ html,body, * {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+    
 }
 
 .top-header {
@@ -24,12 +25,16 @@ html,body, * {
 }
 
 .header {
-    background-color: antiquewhite;
+    max-width: 800px;
+    margin: auto;
     padding: 30px;
     overflow: hidden;
-    position: relative;
+    position: sticky;
+    border-bottom: 1px solid #ccc;
 
 }
+
+
 
 .top-bar {
     float: left;
@@ -44,10 +49,8 @@ html,body, * {
     position: absolute;
     
    text-align: center;
-    
-    
-    margin-left: 62%;
-    margin-top: -2.5%;
+    top: 35%;
+    right: 0;
     
 
 }
@@ -55,11 +58,14 @@ html,body, * {
 .top-bar--list > li {
     float: left;
     list-style:none;
-    margin-left: 20px;
+    padding-right: 10px;
+    
     
     
     
 }
+
+
 
 li > a  {
     padding: 5px;
@@ -74,4 +80,57 @@ li > a:hover {
     background-color: rgba(201, 177, 146, 0.719);;
     
 }
+
+.container {
     
+    max-width: 800px;
+    margin: auto;
+    
+
+}
+    
+
+.main-titulo {
+    
+    padding: 10px 0;
+    
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+.main-img {
+   width: 100%;
+       
+}
+
+.section-titulo {
+    padding: 80px 0 30px;
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.section-cartao {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.section-cartao:hover {
+    box-shadow: 5px 10px 10px 10px #ccc;
+}
+
+.img1, .img2 {
+    width: 45%;
+    margin: auto;
+    padding-left: 40px;
+    background-position-x: -50%;
+}
+
+
+
+
