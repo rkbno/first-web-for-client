@@ -31,7 +31,7 @@ body {
 .header {
     max-width: 100%;
     margin: auto;
-    padding: 30px 50px 10px;
+    padding: 30px 30px 10px;
     overflow: hidden;
     position: sticky;
     background-color: white;
@@ -56,9 +56,8 @@ body {
     
    text-align: center;
     top: 35%;
-    right:  
-        +-
-        nbc1 qafvb s
+    right: 10px 
+        
     
     
 
@@ -96,6 +95,7 @@ li > a:hover {
     max-width: 800px;
     margin: auto;
     
+    
 
 }
     
@@ -103,13 +103,14 @@ li > a:hover {
 #main-titulo {
     
     padding: 10px 0;
-    margin-top: 7px;
+    margin-top: 50px;
     border-top: 1px solid rgb(0, 0, 0);
     
     font-size: 16px;
     text-align: center;
 
-    background-color: white;
+    background-color: black;
+    color: white;
     
     
 }
@@ -121,15 +122,16 @@ li > a:hover {
 }
 
 #section-titulo {
-    border-top: 1px solid black;
+    
 
-    margin-top: 3px;
+    margin: -5px 0 50px 0;
     padding: 40px 0 30px;
 
     font-size: 20px;
     text-align: center;
 
-    background-color: white;
+    background-color: black;
+    color: white;
     
 
 }
@@ -139,40 +141,65 @@ li > a:hover {
     background-color: antiquewhite;
     margin: auto;
     position: relative;
-    margin: 10px 0 100px;
+    margin-bottom: 100px;
 }
 
 .section-cartao:hover {
-    box-shadow: 5px 10px 10px 10px #ccc;
+    box-shadow: 1px 0px 5px 5px #ccc;
 }
 
 
 
 .img, .img1 {
     
-    width: 200px;
+    width: 150px;
     
     margin: auto;
-    padding-left: 40px;
-    background-position-x: -50%;
+    padding-left: 33px;
+    
 }
 
 .img:hover, .img1:hover {
-    
+    position: relative;
     cursor: pointer;
     padding-bottom:10px;
     
 }
 
 footer > div {
-
+    padding-top: 20px;
     width: 100%;
     height: 100px;
     
     background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+.footer-email {
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-email:hover {
+    background-color: rgb(115, 108, 99);
 }
 
 
+.creditos {
+    opacity: 40%;
+}
+
+.creditos-name {
+    text-decoration: none;
+    color: white;
+}
 
 
 
