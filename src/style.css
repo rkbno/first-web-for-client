@@ -74,7 +74,7 @@ body {
 .top-bar--list {
     position: absolute;
     top: 30%;
-    right: 8%;
+    right: 5%;
     min-width: 460px;
    
     
@@ -87,7 +87,7 @@ body {
 .top-bar--list > li {
     display: inline-block;
     list-style:none;
-    padding-left: 15px;
+    padding-left: 25px;
     right: 50%;
     
     
