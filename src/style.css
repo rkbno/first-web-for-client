@@ -30,6 +30,7 @@ body {
 
 .header {
     max-width: 100%;
+    min-width: 320px;
     margin: auto;
     padding: 30px 30px 10px;
     overflow: hidden;
@@ -37,14 +38,22 @@ body {
     background-color: white;
     color: black;
     border-bottom: 1px solid black;
+    
 
 }
 
 
 
 .top-bar {
-    float: left;
-    padding-left: 30px;
+    
+    max-width: 100%;
+    min-width: 480px;
+    margin: auto;
+    padding: 30px 30px 10px;
+    overflow: hidden;
+    position: sticky;
+    background-color: white;
+    color: black;
     
     
     
@@ -53,7 +62,10 @@ body {
 }
 
 .top-bar--logo {
-    width: 80px;
+    width: 5%;
+    margin-left: 50px;
+    
+    
     
     
     
@@ -61,10 +73,11 @@ body {
 
 .top-bar--list {
     position: absolute;
-    
+    top: 30%;
+    right: 8%;
+    min-width: 460px;
    
-    top: 40%;
-    right: 10px ;
+    
         
     
     
@@ -72,16 +85,18 @@ body {
 }
 
 .top-bar--list > li {
-    float: left;
+    display: inline-block;
     list-style:none;
-    padding-right: 33px;
-
+    padding-left: 15px;
+    right: 50%;
     
     
     
     
     
 }
+
+
 
 
 
@@ -91,7 +106,7 @@ li > a  {
 
     font-size: 20px;
     
-    
+    right: 50%;
     color: black;
     text-decoration: none;
 }
