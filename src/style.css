@@ -44,8 +44,16 @@ body {
 
 .top-bar {
     float: left;
+    padding-left: 30px;
     
     
+    
+    
+    
+}
+
+.top-bar--logo {
+    width: 80px;
     
     
     
@@ -54,9 +62,9 @@ body {
 .top-bar--list {
     position: absolute;
     
-   text-align: center;
-    top: 35%;
-    right: 10px 
+   
+    top: 45%;
+    right: 10px ;
         
     
     
@@ -66,7 +74,8 @@ body {
 .top-bar--list > li {
     float: left;
     list-style:none;
-    padding-right: 20px;
+    padding-right: 33px;
+
     
     
     
@@ -79,6 +88,8 @@ body {
 li > a  {
     padding: 5px;
     border-radius: 10%;
+
+    font-size: 20px;
     
     
     color: black;
