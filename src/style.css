@@ -12,8 +12,8 @@ body {
 
 .top-header {
      
-    background-color: antiquewhite;
-    color: black;
+    background-color: black;
+    color: white;
 
     text-align: center;
     
@@ -149,10 +149,11 @@ li > a:hover {
 
 .section-cartao {
     width: 100%;
-    background-color: antiquewhite;
+    background-color: white;
     margin: auto;
     position: relative;
     margin-bottom: 100px;
+    border-radius: 5%;
 }
 
 .section-cartao:hover {
