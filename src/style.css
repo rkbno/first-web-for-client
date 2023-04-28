@@ -11,22 +11,23 @@ body {
 }
 
 .top-header {
-     
     background-color: black;
     color: white;
-
     text-align: center;
-    
 }
 
 .top-header > li {
     display: inline-block;
-    padding: 5px 150px;
-
-    
+    padding: 5px;
     font-size: 12px;
-    
+    margin-right: 25%; 
 }
+
+
+.top-header > li:last-child {
+    margin-right: 0;
+}
+
 
 .header {
     max-width: 100%;
@@ -58,16 +59,9 @@ body {
 }
 
 .top-bar--logo {
-    width: 8%;
+    width: 80px;
     padding-bottom: 10px;
-    padding-left: 15px;
-   
-    
-    
-    
-    
-    
-    
+    padding-left: 15px;    
 }
 
 .top-bar--list {
