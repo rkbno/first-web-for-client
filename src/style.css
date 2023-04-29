@@ -3,7 +3,6 @@ html,body, * {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-    
 }
 
 body {
@@ -39,23 +38,15 @@ body {
     background-color: white;
     color: black;
     border-bottom: 1px solid black;
-    
-
 }
 
 
 
-.top-bar {
-    
+.top-bar {  
     max-width: 100%;
     position: relative;
     background-color: white;
-    color: black;
-    
-    
-    
-    
-    
+    color: black; 
 }
 
 .top-bar--logo {
@@ -68,13 +59,6 @@ body {
     position: absolute;
     top: 25%;
     left: 55%;
-    
-   
-    
-        
-    
-    
-
 }
 
 .top-bar--list > li {
@@ -82,11 +66,6 @@ body {
     list-style:none;
     padding-left: 25px;
     right: 50%;
-    
-    
-    
-    
-    
 }
 
 
@@ -96,9 +75,7 @@ body {
 li > a  {
     padding: 5px;
     border-radius: 10%;
-
     font-size: 20px;
-    
     right: 50%;
     color: black;
     text-decoration: none;
@@ -106,53 +83,36 @@ li > a  {
 
 li > a:hover {
     background-color: #6d6d6d;;
-    
 }
 
 .container {
-    
     max-width: 800px;
     margin: auto;
-    
-    
-
 }
     
 
 #main-titulo {
-    
     padding: 10px 0;
     margin-top: 50px;
     border-top: 1px solid rgb(0, 0, 0);
-    
     font-size: 16px;
     text-align: center;
-
     background-color: black;
     color: white;
-    
-    
 }
 
 
 .main-img {
-   width: 100%;
-       
+   width: 100%;  
 }
 
 #section-titulo {
-    
-
     margin: -5px 0 50px 0;
     padding: 40px 0 30px;
-
     font-size: 20px;
     text-align: center;
-
     background-color: black;
     color: white;
-    
-
 }
 
 .section-cartao {
@@ -170,35 +130,55 @@ li > a:hover {
 
 .section-cartao > a {
     text-decoration: none;
-}
-
-
-
-
-.img, .img1 {
-    
-    width: 150px;
-    
     margin: auto;
-    padding-left: 20px;
+}
+
+
+.img {  
+    width: 60%;
+    margin: auto;
+    
+    display: none;
     
 }
 
-.img:hover, .img1:hover {
-    position: relative;
+.img.ativo {
+    display: block;
+}
+
+.botoes-carrossel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botao {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    border: 2px solid transparent;
+    border-color: #6d6d6d;
+    margin-bottom: 20px;
     cursor: pointer;
-    padding-bottom:10px;
-    
+    transition: 0.2s ease-in-out ;
+
+}
+
+.botao.on {
+    background-color: aqua;
+}
+
+.botao:hover {
+    transform: scale(1.2) ;
 }
 
 footer > div {
     padding-top: 20px;
     width: 100%;
     height: 100px;
-    
     background-color: black;
     color: white;
-
     text-align: center;
 }
 
@@ -206,10 +186,8 @@ footer > div {
     padding: 5px;
     margin-left: 5px;
     border-radius: 10px;
-    
     color: white;
     text-decoration: none;
-
 }
 
 .footer-email:hover {
