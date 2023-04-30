@@ -149,13 +149,13 @@ li > a:hover {
 .botoes-carrossel {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1%;
 }
 
 .botao {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
     background-color: #6d6d6d;
     border: 2px solid transparent;
     border-color: #6d6d6d;
