@@ -68,10 +68,6 @@ body {
     right: 50%;
 }
 
-
-
-
-
 li > a  {
     padding: 5px;
     border-radius: 10%;
@@ -89,7 +85,6 @@ li > a:hover {
     max-width: 800px;
     margin: auto;
 }
-    
 
 #main-titulo {
     padding: 10px 0;
@@ -100,7 +95,6 @@ li > a:hover {
     background-color: black;
     color: white;
 }
-
 
 .main-img {
    width: 100%;  
@@ -124,22 +118,15 @@ li > a:hover {
     border-radius: 5%;
 }
 
-.section-cartao:hover {
-    box-shadow: 1px 0px 5px 5px #ccc;
-}
-
 .section-cartao > a {
     text-decoration: none;
     margin: auto;
 }
 
-
 .img {  
     width: 60%;
     margin: auto;
-    
-    display: none;
-    
+    display: none; 
 }
 
 .img.ativo {
@@ -150,6 +137,7 @@ li > a:hover {
     display: flex;
     justify-content: center;
     gap: 1%;
+    margin-top: 8%;
 }
 
 .botao {
@@ -162,7 +150,6 @@ li > a:hover {
     margin-bottom: 20px;
     cursor: pointer;
     transition: 0.2s ease-in-out ;
-
 }
 
 .botao.on {
